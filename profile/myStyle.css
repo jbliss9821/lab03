@@ -1,0 +1,76 @@
+body {
+	background-color: CornflowerBlue;
+}
+
+h1 {
+	color: black;
+	font-family: arial;
+	font-size: 22pt;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+button {
+	display: block;
+	background-color: #e7e7e7;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.1s;
+    cursor: pointer;
+	border: 2px solid black;
+	margin:0 auto;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+	border-color: white;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: #ff6633;
+}
+
+p.links{
+    text-align: center;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+iframe
+{
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+    margin: 10px 15%; /* make em equal */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

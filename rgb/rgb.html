@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<script type = "text/javascript" src = "rgb.js" ></script>
+        <link href="myStyle.css"
+              rel="stylesheet"
+              type="text/css" />
+		<h1> Color Changer </h1>
+		<title> Color Changer </title>
+	</head>
+
+	<body>
+        <p id="p1"><br> AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz <br><br></p>
+        <br>
+        Background Red Value(0-255): <input type="text" name="red" id='r' value='255'>
+        <br><br>
+        Background Green Value(0-255): <input type="text" name="green" id='g' value='255'>
+        <br><br>
+        Background Blue Value(0-255): <input type="text" name="blue" id='b' value='255'>
+        <br><br>
+        <input type="button" onclick="change_rgb()" value="Change Background" class="b">
+        <br><br>
+        Border Red Value(0-255): <input type="text" name="red" id='border_r' value='0'>
+        <br><br>
+        Border Green Value(0-255): <input type="text" name="green" id='border_g' value='0'>
+        <br><br>
+        Border Blue Value(0-255): <input type="text" name="blue" id='border_b' value='0'>
+        <br><br>
+        Border Width (enter as (#pixels)px): <input type="text" name="width" id='w' value='3px'>
+        <br><br>
+        <input type="button" onclick="change_w()" value="Change Border" class="b">
+        <br><br>
+        <input type="button" onclick="reset()" value="Reset All Values" class="b">
+	</body>
+</html>
